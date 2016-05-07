@@ -1,0 +1,23 @@
+{
+    "name": "huynh/autoload-test",
+    "description": "Autoload testing between psr-0 and psr-4",
+    "authors": [
+        {
+            "name": "Frank",
+            "email": "triphat85@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=5.3.0"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Book\\": "src/Book",
+            "Vehicle\\": "src/Vehicle"
+        }
+    }    
+}

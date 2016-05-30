@@ -29,7 +29,7 @@
 ### psr-0
 It is deprecated. Looking at [```vendor/composer/autoload_namespaces.php```](https://jtreminio.com/2012/10/composer-namespaces-in-5-minutes/#the-autoload_namespaces.php-file) file you can see the namespaces and the directories that they are mapped to.
 
-composer.json
+**composer.json**
 ```
     "autoload": {
         "psr-0": {
@@ -44,7 +44,8 @@ composer.json
 
 ### psr-4
 Looking at ```vendor/composer/autoload_psr4.php``` file you can see the namespaces and the directories that they are mapped to.
-composer.json
+
+**composer.json**
 ```
     "autoload": {
         "psr-4": {
@@ -56,7 +57,7 @@ composer.json
 - Looking for **Book**\History\UnitedStates in **src**/History/UnitedStates.php
 - Looking for **Vehicle**\Air\Wings\Airplane in **src**/Air/Wings/Airplane.php
 
-composer.json
+**composer.json**
 ```
     "autoload": {
         "psr-4": {

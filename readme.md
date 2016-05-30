@@ -27,7 +27,9 @@
 
 
 ### psr-0
-It is deprecated. Looking at [```vendor/composer/autoload_namespaces.php```](https://jtreminio.com/2012/10/composer-namespaces-in-5-minutes/#the-autoload_namespaces.php-file) file you can see the namespaces and the directories that they are mapped to
+It is deprecated. Looking at [```vendor/composer/autoload_namespaces.php```](https://jtreminio.com/2012/10/composer-namespaces-in-5-minutes/#the-autoload_namespaces.php-file) file you can see the namespaces and the directories that they are mapped to.
+
+composer.json
 ```
     "autoload": {
         "psr-0": {
@@ -41,7 +43,8 @@ It is deprecated. Looking at [```vendor/composer/autoload_namespaces.php```](htt
 - Looking for **Vehicle**\Air\Wings\Airplane in **src/Vehicle**/Air/Wings/Airplane.php
 
 ### psr-4
-Looking at ```vendor/autoload_psr4.php``` file you can see the namespaces and the directories that they are mapped to
+Looking at ```vendor/composer/autoload_psr4.php``` file you can see the namespaces and the directories that they are mapped to.
+composer.json
 ```
     "autoload": {
         "psr-4": {
@@ -53,6 +56,7 @@ Looking at ```vendor/autoload_psr4.php``` file you can see the namespaces and th
 - Looking for **Book**\History\UnitedStates in **src**/History/UnitedStates.php
 - Looking for **Vehicle**\Air\Wings\Airplane in **src**/Air/Wings/Airplane.php
 
+composer.json
 ```
     "autoload": {
         "psr-4": {
@@ -62,7 +66,7 @@ Looking at ```vendor/autoload_psr4.php``` file you can see the namespaces and th
     }    
 ```
 - Looking for **Book**\History\UnitedStates **src/Book**/History/UnitedStates.php
-- Looking for **Vehicle**\Air\Wings\Airplane in **src/Vehicle**/Air/Wings/Airplane.php.
+- Looking for **Vehicle**\Air\Wings\Airplane in **src/Vehicle**/Air/Wings/Airplane.php
 
 ## Be ready for production
 Just a reminder, before deploying your code in production, don't forget to optimize the autoloader:

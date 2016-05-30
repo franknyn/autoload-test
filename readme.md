@@ -24,7 +24,7 @@
 ```
 ## Difference between psr-0 and psr-4 autoloading
 - See http://stackoverflow.com/questions/24868586/what-is-the-difference-between-psr-0-and-psr-4
-
+- See https://groups.google.com/d/msg/silverstripe-dev/i1voM50oFMk/rPouYXtnSA0J
 
 ### psr-0
 It is deprecated. Looking at [```vendor/composer/autoload_namespaces.php```](https://jtreminio.com/2012/10/composer-namespaces-in-5-minutes/#the-autoload_namespaces.php-file) file you can see the namespaces and the directories that they are mapped to.
@@ -39,7 +39,7 @@ It is deprecated. Looking at [```vendor/composer/autoload_namespaces.php```](htt
     }    
 ```
 
-- Looking for **Book**\History\UnitedStates **src/Book**/History/UnitedStates.php
+- Looking for **Book**\History\UnitedStates in **src/Book**/History/UnitedStates.php
 - Looking for **Vehicle**\Air\Wings\Airplane in **src/Vehicle**/Air/Wings/Airplane.php
 
 ### psr-4

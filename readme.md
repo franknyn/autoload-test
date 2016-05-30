@@ -62,7 +62,8 @@ Looking at ```vendor/autoload_psr4.php``` file you can see the namespaces and th
     }    
 ```
 - Looking for **Book**\History\UnitedStates **src/Book**/History/UnitedStates.php
-- Looking for **Vehicle**\Air\Wings\Airplane in **src/Vehicle**/Air/Wings/Airplane.php
+- Looking for **Vehicle**\Air\Wings\Airplane in **src/Vehicle**/Air/Wings/Airplane.php.
+
 ## Be ready for production
 Just a reminder, before deploying your code in production, don't forget to optimize the autoloader:
 ```
